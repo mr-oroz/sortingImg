@@ -1,0 +1,44 @@
+body {
+    margin          : 0;
+    padding         : 0;
+    background-color: #021C35;
+}
+
+.block {
+    padding        : 100px;
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+}
+
+.tehnology,
+.animals,
+.nature {
+    position: relative;
+    display: none;
+}
+
+img {
+    width : 350px;
+    height: 230px;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    color     : white;
+    position  : absolute;
+    left      : 150px;
+    top       : 0;
+}
+
+.Text {
+    font-size      : 100px;
+    color          : white;
+    letter-spacing : 0.20px;
+    font-weight    : 700;
+    text-transform : uppercase;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
